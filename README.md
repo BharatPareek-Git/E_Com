@@ -18,9 +18,9 @@ Admin panner
 User section
 
 ### Technology Stack used
-front-end : HTML,CSS,JS,bootstrup5
-Back-end : Php
-DB : MySQL
+1. front-end : HTML,CSS,JS,bootstrup5
+2. Back-end : Php
+3. DB : MySQL
 
 ### To use project 
 1. make clone of this repo
