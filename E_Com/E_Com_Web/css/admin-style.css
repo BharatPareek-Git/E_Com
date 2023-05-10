@@ -1,0 +1,141 @@
+.{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body
+{
+	background-color: #333333;
+	color: white;
+}
+.admin-nav-bar
+{
+	width: 100%;
+	padding: 1%;
+	font-weight: bold;
+}
+.hover-grey:hover
+{
+	color: grey;
+}
+.default-color
+{
+	/*background-color: #232F3E;*/
+	color: white;
+	background-color: black;
+}
+.list-style-remove
+{
+	list-style-type: none;
+	display: inline;
+}
+.text-decoration-remove
+{
+	text-decoration: none;
+	color: white;
+}
+.pull-right
+{
+	float: right;
+	padding-right: 1%;
+}
+.admin-dashboard
+{
+	background-color: black;
+	width: 100%;
+	height: 100%;
+}
+.left-dashboard
+{
+	width: 15%;
+/*	background-color: orange;*/
+	float: left;
+}
+.right-dashboard
+{
+	width: 85%;
+	background-color: white;
+	color: black;
+	float: left;
+	height: 100%;
+}
+.div-color-hover:hover
+{
+	color: white;
+}
+.page-header
+{
+	padding: 5%;
+	padding-bottom: 0%;
+	width: 100%;
+}
+.dashboard-heading
+{
+	display: inline;
+}
+.dashboard-div
+{
+	width: 100%;
+	margin-bottom: 1%;
+}
+.dashboard-color
+{
+	color: grey;
+	background-color: lightgrey;
+	padding-left: 2%;
+	width: 90%;
+	margin: 0 auto;
+}
+.category-div,.product-div
+{
+	width: 90%;
+/*	background-color: yellow;*/
+	margin: 0 auto;
+}
+.category-div-form,.product-div-form
+{
+	width: 100%;
+	margin: 1% auto;
+	padding: 5%;
+	padding-left: 2%;
+}
+.color-grey
+{
+	color: grey;
+	font-size: 1.2em;
+}
+.success
+{
+	color: green;
+}
+.error
+{
+	color: red;
+}
+.text-center
+{
+	text-align: center;
+}
+.category-div-Display
+{
+	width: 90%;
+/*	background-color: pink;*/
+	margin: 0 auto;
+}
+.category-div-Display-main
+{
+	width: 100%;
+	padding: 5%;
+	padding-left: 2%;
+}
+.product-div-Display
+{
+	width: 90%;
+/*	background-color: pink;*/
+	margin: 0 auto;
+}
+.product-div-Display-main
+{
+	margin-right: 2%;
+}
+

@@ -1,0 +1,179 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+/*Navbar Design Start*/
+.navbar
+{
+	background-color: #232F3E;
+	color: white;
+	text-align: center;
+}
+.navbar-container
+{
+
+	width: 85%;
+	padding: 2%;
+	margin: 0 auto;
+}
+.navbar-list-item
+{
+	list-style-type: none;
+	display: inline;
+	padding: 20px;
+}
+.navbar-list-item a
+{
+	text-decoration: none;
+	color: white;
+}
+.navbar-list-item a:hover
+{
+	color: lightgrey;
+}
+.list-style-user-info
+{
+	background-color: #232F3E;
+	list-style-type: none;
+	text-decoration: none;
+	display: inline;
+	color: black;
+}
+/*Navbar Design End*/
+
+/*Category and product area Start*/
+.container-80
+{
+	width: 90%;
+	margin: 0 auto;
+/*	background-color: red;*/
+}
+.main-content-table
+{
+	width: 22%;
+	margin: 0 auto;
+	float: left;
+}
+.grid-container
+{
+	display: grid;
+	grid-template-columns: auto auto auto;
+/*	overflow: hidden;*/
+/*	max-height: 500px;*/
+}
+/*.grid-container-shop
+{
+	display: grid;
+	grid-template-columns: auto auto auto;
+
+}*/
+.grid-item
+{
+	padding: 0%;
+}
+.card-img-top
+{
+	height: 170px;
+	width: 100%;
+	object-fit: contain;
+}
+.over-flow
+{
+/*	background-color: yellow;*/
+/*	When We Display short description and dissimilar length of description create a huge problem with our div size so here we display max 2 lines and rest of code will be hidden using overflow hidden property */
+	overflow: hidden;
+   	display: -webkit-box;
+   	/* number of lines to show */
+   -webkit-line-clamp: 2; 
+           line-clamp: 2; 
+   -webkit-box-orient: vertical;
+}
+.text-center
+{
+	text-align: center;
+} 
+.pull-right
+{
+	float: right;
+	padding-right: 1%;
+}
+.session-checkout
+{
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+}
+.cart-total
+{
+	margin: 4%;
+	width: 20%;
+	box-sizing: border-box;
+	float: right;
+}
+/*Footer Design Start*/
+.footer
+{
+	background-color: #232F3E;
+	text-align: center;
+	clear: both;
+}
+.footer ul li
+{
+	list-style-type: none;
+	display: inline;
+}	
+.footer ul li a
+{
+	text-decoration: none;
+	color: white;
+}
+.footer-item
+{
+	padding: 5px;
+}
+.footer-copyright .text-center
+{
+	text-align: center;
+	color: white;
+}
+/*Footer Design End*/
+
+.error
+{
+	color: red;
+}
+.success
+{
+	color: green;
+}
+.tbl-a-style-remove
+{
+	text-decoration: none;
+	color: black;
+}
+.text-decoration-remove-a
+{
+	text-decoration: none;
+	color: blue;
+}
+.border-color
+{
+	border-color: grey;
+	margin-left: 6%;
+	padding-right: 10%;
+}
+.product-img 
+{
+   max-width: 100%;
+}
+.product-detail-data
+{
+	border: 1px solid lightgrey;
+}
+.product-div-review
+{
+	margin: 5%;
+	margin-left: 25%;
+}
